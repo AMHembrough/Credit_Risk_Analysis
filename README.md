@@ -2,11 +2,13 @@
 
 # Overview of the analysis: 
 
-The purpose of this analysis was to oversample a credit card credit dataset from LendingClub, a peer-to-peer lending service company, using two algorithms, the RandomOverSampler and SMOTE, and to undersample the same credit card credit dataset using the ClusterCentroids algorithm.  
+The purpose of this analysis was to predict high risk loans using a credit card credit dataset from LendingClub, a peer-to-peer lending service company.
 
-After oversampling and undersampling, we used a combinational approach of over- and undersampling using the SMOTEENN algorithm.  
-
-We then used two machine learning models, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.  
+To do this, we employed 6 machine learning models.  
+- First, we oversampled the credit card credit dataset using two algorithms, the RandomOverSampler and SMOTE.
+- Next, we undersampled the same credit card credit dataset using the ClusterCentroids algorithm.  
+- We then used a combinational approach of over- and undersampling using the SMOTEENN algorithm.  
+- Lastly, we employed two machine learning models, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.  
 
 # Results
 
